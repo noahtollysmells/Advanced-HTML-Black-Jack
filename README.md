@@ -1,4 +1,4 @@
-#🃏 Advanced Blackjack (HTML, CSS, JavaScript)
+# 🃏 Advanced Blackjack (HTML, CSS, JavaScript)
 A sleek, fully interactive blackjack game with a Windows 10–inspired blue, black, and grey theme.
 Features a persistent £ currency system, betting, double down, dealer AI, and responsive UI — all running in your browser.
 
