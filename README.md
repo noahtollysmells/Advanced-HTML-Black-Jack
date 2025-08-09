@@ -1,9 +1,9 @@
-🃏 Advanced Blackjack (HTML, CSS, JavaScript)
+#🃏 Advanced Blackjack (HTML, CSS, JavaScript)
 A sleek, fully interactive blackjack game with a Windows 10–inspired blue, black, and grey theme.
 Features a persistent £ currency system, betting, double down, dealer AI, and responsive UI — all running in your browser.
 
-🎯 Features
-💰 Currency System in £
+#🎯 Features
+#💰 Currency System in £
 
 Start with £1,000 (saved between plays using localStorage)
 
@@ -11,7 +11,7 @@ Win or lose based on bets
 
 Top up with £500 when needed
 
-🎮 Full Blackjack Rules
+#🎮 Full Blackjack Rules
 
 Hit, Stand, and Double Down supported
 
@@ -19,7 +19,7 @@ Dealer plays automatically until score ≥ 17
 
 Push, Win, and Bust outcomes handled
 
-🖌 Windows 10 Theme
+#🖌 Windows 10 Theme
 
 Dark background with blue highlights
 
@@ -27,24 +27,24 @@ Clean card visuals
 
 Sleek rounded table design
 
-📱 Responsive
+#📱 Responsive
 
 Works on desktop and mobile browsers
 
-🧮 Accurate Scoring
+#🧮 Accurate Scoring
 
 Handles Aces as 1 or 11
 
 Correct blackjack scoring logic
 
-📸 Screenshot
+#📸 Screenshot
 (Add screenshot here — ![Screenshot](path-to-image.png))
 
-🚀 Live Demo
+#🚀 Live Demo
 You can play it instantly by opening the index.html file in any modern browser.
 (Optional: link to a GitHub Pages deployment)
 
-📂 How to Use
+#📂 How to Use
 Clone this repository
 
 bash
@@ -55,7 +55,7 @@ cd advanced-blackjack
 Open the game
 Simply double-click index.html or open it in your browser.
 
-⚙️ Game Controls
+#⚙️ Game Controls
 Button	Action
 Deal	Start a new round with your bet
 Hit	Draw another card
@@ -63,14 +63,14 @@ Stand	End your turn and let the dealer play
 Double	Double your bet, take one card, then stand
 Top Up £500	Add £500 to your balance
 
-🛠 Technologies Used
+#🛠 Technologies Used
 HTML5 — Game structure and layout
 
 CSS3 — Windows 10–style theme
 
 JavaScript (Vanilla) — Game logic, UI updates, and currency system
 
-📜 Rules Summary
+#📜 Rules Summary
 Goal: Beat the dealer without going over 21.
 
 Card Values:
@@ -91,7 +91,7 @@ Lose = - bet amount
 
 Push = No change
 
-💡 Ideas for Expansion
+#💡 Ideas for Expansion
 Add animations for card dealing
 
 Include sound effects
@@ -102,6 +102,6 @@ Multiplayer mode
 
 Leaderboard with top balances
 
-📜 License
+#📜 License
 This project is licensed under the MIT License.
 You can use, modify, and distribute it freely — just credit the original source.
