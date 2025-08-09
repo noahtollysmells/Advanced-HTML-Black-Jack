@@ -1,99 +1,77 @@
-# 🃏 Advanced Blackjack (HTML, CSS, JavaScript)
-A sleek, fully interactive blackjack game with a Windows 10–inspired blue, black, and grey theme.
-Features a persistent £ currency system, betting, double down, dealer AI, and responsive UI — all running in your browser.
+# Advanced Blackjack — Windows 10 Themed, £ Currency, Fully Featured
 
-# 🎯 Features
-# 💰 Currency System in £
+![Blackjack Banner](https://user-images.githubusercontent.com/yourusername/blackjack-banner.png)  
+*A sleek, realistic blackjack game inspired by Windows 10’s blue and grey aesthetic, fully playable in your browser.*
 
-Start with £1,000 (saved between plays using localStorage)
+---
 
-Win or lose based on bets
+## Table of Contents
 
-Top up with £500 when needed
+- [Overview](#overview)  
+- [Features](#features)  
+- [Live Demo](#live-demo)  
+- [Installation](#installation)  
+- [How to Play](#how-to-play)  
+- [Game Mechanics & Rules](#game-mechanics--rules)  
+- [Currency System & Betting](#currency-system--betting)  
+- [User Interface & Theme](#user-interface--theme)  
+- [Keyboard Shortcuts](#keyboard-shortcuts)  
+- [Accessibility & Responsiveness](#accessibility--responsiveness)  
+- [Development Details](#development-details)  
+- [Planned Enhancements](#planned-enhancements)  
+- [Testing & Debugging](#testing--debugging)  
+- [Contributing](#contributing)  
+- [License](#license)  
 
-# 🎮 Full Blackjack Rules
+---
 
-Hit, Stand, and Double Down supported
+## Overview
 
-Dealer plays automatically until score ≥ 17
+Advanced Blackjack is a browser-based blackjack game built using only **HTML**, **CSS**, and **JavaScript**. It provides a fully featured, immersive blackjack experience designed to run smoothly on any modern desktop or mobile browser.
 
-Push, Win, and Bust outcomes handled
+The game is themed to match the familiar look of Windows 10, combining cool blue tones, black backgrounds, and grey accents for a sleek, professional casino vibe. The currency system uses British Pounds (£), with realistic betting limits and persistent balance stored in your browser.
 
-# 📱 Responsive
+Perfect for casual players wanting to practice blackjack strategy or developers interested in how a full blackjack engine can be implemented in vanilla web technologies.
 
-Works on desktop and mobile browsers
+---
 
-# 🧮 Accurate Scoring
+## Features
 
-Handles Aces as 1 or 11
+- **6 Deck Shoe**: Uses a multi-deck shoe with 6 standard 52-card decks, shuffled each round for realism.  
+- **Accurate Blackjack Rules**:  
+  - Dealer stands on all 17s including soft 17 (Ace + 6).  
+  - Blackjack pays 3:2 immediately unless dealer also has blackjack (push).  
+  - Player can split pairs up to 3 hands (maximum two splits).  
+  - Double down allowed only on first two cards per hand.  
+  - Bust detection and proper score calculation with flexible ace values.  
+- **Currency System with Realistic Betting**:  
+  - Start with £1000 balance, saved locally in browser storage.  
+  - Bet between £1 minimum and £500 maximum or your current balance.  
+  - Quick bet chips to add preset amounts.  
+  - Top up button to add £500 instantly.  
+- **Fully Themed UI**:  
+  - Inspired by Windows 10’s blue and grey palette.  
+  - Clean card designs with suits and values.  
+  - Responsive layout adapting to different screen sizes.  
+- **Keyboard Support**: Use keyboard shortcuts (H, S, D, P) to speed up gameplay.  
+- **Accessibility**: ARIA labels and semantic HTML for screen readers and keyboard users.  
+- **No Dependencies**: Pure vanilla web tech, no frameworks or libraries.  
+- **Mobile Friendly**: Works well on phones and tablets with touch controls.  
 
-Correct blackjack scoring logic
+---
 
-# 📸 Screenshot
-(Add screenshot here — ![Screenshot](path-to-image.png))
+## Live Demo
 
-# 🚀 Live Demo
-You can play it instantly by opening the index.html file in any modern browser.
-(Optional: link to a GitHub Pages deployment)
+Try the game instantly by opening the `index.html` file in any modern browser, no server required.  
 
-# 📂 How to Use
-Clone this repository
+Feel free to fork and customize the code for your own projects.
 
-bash
-Copy
-Edit
+---
+
+## Installation
+
+1. Clone the repository to your local machine:
+
+```bash
 git clone https://github.com/yourusername/advanced-blackjack.git
 cd advanced-blackjack
-Open the game
-Simply double-click index.html or open it in your browser.
-
-# ⚙️ Game Controls
-Button	Action
-Deal	Start a new round with your bet
-Hit	Draw another card
-Stand	End your turn and let the dealer play
-Double	Double your bet, take one card, then stand
-Top Up £500	Add £500 to your balance
-
-# 🛠 Technologies Used
-HTML5 — Game structure and layout
-
-CSS3 — Windows 10–style theme
-
-JavaScript (Vanilla) — Game logic, UI updates, and currency system
-
-# 📜 Rules Summary
-Goal: Beat the dealer without going over 21.
-
-Card Values:
-
-2–10 = face value
-
-J, Q, K = 10
-
-A = 1 or 11 (whichever is better for your hand)
-
-Dealer: Must hit until at least 17.
-
-Payouts:
-
-Win = + bet amount
-
-Lose = - bet amount
-
-Push = No change
-
-# 💡 Ideas for Expansion
-Add animations for card dealing
-
-Include sound effects
-
-Add side bets (e.g., Perfect Pairs, 21+3)
-
-Multiplayer mode
-
-Leaderboard with top balances
-
-# 📜 License
-This project is licensed under the MIT License.
-You can use, modify, and distribute it freely — just credit the original source.
