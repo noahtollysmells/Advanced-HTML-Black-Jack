@@ -1,6 +1,5 @@
 # 🎰 Advanced Blackjack — Windows 10 Themed, £ Currency, Fully Featured 🃏
-
-![Blackjack Banner](https://user-images.githubusercontent.com/yourusername/blackjack-banner.png)  
+ 
 *A sleek, realistic blackjack game inspired by Windows 10’s blue and grey aesthetic, fully playable in your browser.*
 
 ---
