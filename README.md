@@ -1,5 +1,7 @@
 # 🎰 Advanced Blackjack — Windows 10 Themed, £ Currency, Fully Featured 🃏
 
+direct link: https://noahtollysmells.github.io/Advanced-HTML-Black-Jack/
+
 ---
 
 ## 🔍 Overview
